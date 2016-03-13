@@ -22,7 +22,7 @@
 <script src="bootstrap/js/bootstrap-switch.min.js"></script>
 </head>
 
-<body style="background: #deecdf">
+<body >
 <div class="header-section">
     <div class="continer">
         <img src="graph/p1.png">
@@ -33,8 +33,8 @@
 <div class="container">
 <div class="row">
     <div class="col-md12">
-        <div class="jumbotron">
-            <h1>Welcome to my page</h1>
+        <div class="jumbotron title">
+            <h1>About me</h1>
             <p>I am Lai Rongchang, welcome to my page.Now, I am working on my master degree in University of Tsukuba, Japan. I like programming,
                 I believe that I can change the world by my code.
             </p>
@@ -43,15 +43,34 @@
 </div>
 
 <div class="row">
-    <div class="col-md-12">
-        <div class="page-header">
-            <h1>About me</h1>
+    <div class="col-md12">
+        <div class="jumbotron title">
+            <h1>My works</h1>
+            <p>Here are some of my works. 
+            </p>
         </div>
     </div>
 </div>
 
 <div class="row">
-    <div class="col-md-8 col-md-offset-4">
+<div class="col-md-12">
+    <div class="page-header">
+  <h1>A music website with distributed log mining system based on Hadoop    <small>Intelligence recommendation system for big data</small></h1>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class ="col-md-4">
+        <p>
+            Here is a music website with a gorgeous user interface. With Metro style user interface, the website provide a excellent user experience for users.
+            Users can listen different style music, and collect the track into their personal list. The most crucial feature of this website is its intelligence recommendation
+            system. The system recommends the music to users who are willing to listen this one. 
+            The intelligence recommendation is implemented based on Apriori algorithm which is a classic association rule learning. While we are in the age of big data, and 
+            Apriori algorithm is powerless when facing the massive data. For this music website, the size of log data may increase very quickly when there are thousands of users. In this case, Apriori algorithm has a bottleneck of performance and it is impossible to run this algorithm on single computer. 
+            I rewrited the traditional Apriori in MapReduce programming model so that it can run on Haddop distributed platform. With the Hadoop, the system can mining the log data by Apriori algorithm on more than one computer in parallel. The experiment result shows my system indeed speeds the Apriori algorithm performance.
+        </p>
+    </div>
+    <div class="col-md-8">
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -111,8 +130,17 @@
     </div>
 </div>
 </div>
+
 <div class="row">
-    <div class="col-md-8 col-md-offset-4" style="height: 30%">
+<div class="col-md-12">
+    <div class="page-header">
+  <h1>Starfortress    <small>A tower defense Android game</small></h1>
+</div>
+</div>
+</div>
+
+<div class="row">
+    <div class="col-md-8 " style="height: 30%">
         <div id="starfortress-show" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -164,6 +192,55 @@
     </div>
 </div>
 
+<div class="row">
+<div class="col-md-12">
+    <div class="page-header">
+  <h1>Wall-D   <small>An Intelligent robot for temperature and humidity monitoring</small></h1>
+</div>
+</div>
+</div>
+
+<div class="row">
+    <div class="col-md-8 " >
+        <div id="walld-show" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#walld-show" data-slide-to="0" class="active"></li>
+                <li data-target="#walld-show" data-slide-to="1"></li>
+            </ol>
+
+
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img class="img-responsive center-block" src="graph/walld11.jpg" alt="fuck">
+                    <div class="carousel-caption">
+                        <h3>player</h3>
+                        <p>user can select their  music</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img-responsive center-block" src="graph/walld22.jpg" alt="fuck">
+                    <div class="carousel-caption">
+                        <div class="carousel-caption">
+                            <h3>player</h3>
+                            <p>user can select their  music</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#walld-show" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#walld-show" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
 
     <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/v/dG_rMKGFMzE"></iframe>
